@@ -1,5 +1,69 @@
-/* 
-your CSS rules and font imports should go here 
-delete this comment, add the import directives for your fonts
-and add the CSS rules as described in the challenge
-*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+
+body {
+	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a:link {
+    color: #0000AA;
+    text-decoration: none;
+}
+
+a:visited {
+	color: #0000AA;
+	text-decoration: none;
+}
+
+a:focus {
+	color: #0000EE;
+}
+
+a:hover {
+	color: #0000EE;
+}
+
+h1 {
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-weight: 300;
+	font-size: 300%;
+	margin: 0px;
+}
+
+h2 {
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+	color: #505050;
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 125%;
+}
+
+main {
+	display:block;
+	margin:10px 5px 15px 30%;
+	background-image: url('../img/ricepaper_v3.png');
+	opacity: 0.9;
+}
+
+header {
+	padding: 1em 1em 1em 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px;
+	border-bottom-color: #FFFFFF;
+	color: #FFFFFF;
+
+	
+}
+
+#general {
+	padding: 1em 1em 1em 1em;
+}
